@@ -1,0 +1,59 @@
+.contact-section {
+  height: 100%;
+  background-color: #18293e;
+  padding: 100px 0;
+}
+.contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  margin: 0 auto;
+  max-width: 1200px;
+  border-radius: 0.5rem;
+  padding: 100px 0;
+}
+.left img {
+  width: 100%;
+}
+.right h2 {
+  font-size: 35px;
+  padding-bottom: 10px;
+}
+.right p {
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+.right p span {
+  font-weight: bold;
+}
+form {
+  padding: 20px 20px 0 0;
+  display: flex;
+  align-items: center;
+}
+form .button {
+  background: linear-gradient(116.34deg, #00229a -6.34%, #046ae1 120.47%);
+  color: #fefefe;
+  border-radius: 20px;
+  align-self: end;
+  padding: 5px 35px;
+}
+@media (max-width: 760px) {
+  .contact {
+    flex-direction: column;
+    margin: 10px;
+  }
+  .right {
+    padding: 20px;
+  }
+  form {
+    flex-direction: column;
+  }
+  form .button {
+    margin-top: 20px;
+  }
+  .form-group {
+    margin-top: 20px;
+  }
+}

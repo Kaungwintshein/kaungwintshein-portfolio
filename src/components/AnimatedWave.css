@@ -1,0 +1,28 @@
+.wave-container {
+  height: 250px;
+}
+.wave {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 68000px;
+  height: 400px;
+  background-repeat: repeat no-repeat;
+  background-position: center bottom;
+  transform-origin: center center;
+  background-size: contain;
+  animation: animate 120s linear infinite;
+  backface-visibility: hidden;
+  will-change: transform;
+}
+@keyframes animate {
+  0% {
+    transform: translateX(0) translateZ(0);
+  }
+  50% {
+    transform: translateX(-25%) translateZ(0);
+  }
+  100% {
+    transform: translateX(-50%) translateZ(0);
+  }
+}

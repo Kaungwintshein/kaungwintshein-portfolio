@@ -1,0 +1,39 @@
+.footer-section {
+  background-color: #243a67;
+  width: 100%;
+  padding: 20px 0;
+}
+.footer {
+  display: flex;
+  color: #fff;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 50px;
+}
+.links-group {
+  margin-right: 50px;
+}
+.links-group ul li {
+  font-size: 13px;
+}
+.links-group ul li a {
+  color: white;
+  text-decoration: none;
+}
+.links-group ul li a:hover {
+  border: none;
+}
+.social-icons {
+  display: none;
+}
+.social-icons span {
+  margin-right: 20px;
+}
+.social-icons span img {
+  color: #fff;
+}
+@media (max-width: 760px) {
+  .social-icons {
+    display: block;
+  }
+}
